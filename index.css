@@ -1,0 +1,463 @@
+body{
+    background: #1f2122;
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+::-webkit-scrollbar{
+    width: 20px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #ec639391;
+}
+.bar{
+    width: 2px;
+    height: 50px;
+    background-color: #80808072;
+    position: absolute;
+    top: 25px;
+    left: 350px;
+}
+.logoimg{
+    position: absolute;
+    top: 20px;
+    cursor: pointer;
+    left: 100px;
+}
+nav{
+    position: absolute;
+    padding: 10px;
+    top: 30px;
+    left: 660px;
+}
+.link1{
+    text-decoration: none;
+    font-size: 14px;
+    padding: 10px 20px;
+    color: #808080;
+    transition: 0.3s;
+}
+.link1:hover{
+    color: #ec6393;
+    transition: 0.3s;
+}
+.profile{
+    position: absolute;
+    width: 130px;
+    height: 45px;
+    background-color:#80808073;
+    top: 27px;
+    border-radius: 20px;
+    right: 100px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.profile:hover h3{
+    transition: 0.3s;
+    color: rgba(255, 255, 255, 0.859);
+}
+.profile:hover{
+    background-color: #ec6393;
+    transition: 0.3s;
+}
+.profileimg{
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 50%;
+    left: 5px;
+    top: 5px;
+}
+h3{
+    position: absolute;
+    top: -9px;
+    transition: 0.3s;
+    font-size: 20px;
+    font-weight: 100;
+    color: rgb(128, 128, 128);
+    left: 53px;
+}
+.sh{
+    position: absolute;
+    top: 26px;  
+    left: 410px;
+}
+input{
+    width: 200px;
+    height: 45px;
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+    background: #8080804c;
+    border: 0;
+}
+::placeholder{
+    position: absolute;
+    left: 44px;
+    top: 15px;
+    color: #808080;
+}
+input:active{
+    outline: none;
+}
+.shimg{
+    position: absolute;
+    width: 30px;
+    top: 10px;
+    left: 10px;
+}
+.gntext{
+    background-color: #8080804c;
+    width: 1100px;
+    position: absolute;
+    top: 140px;
+    left: 137px;
+    border-radius: 20px;
+    height: 1400px;
+}
+.text1{
+    position: absolute;
+    width: 880px;
+    border-radius: 20px;
+    top: 60px;
+    left: 109px;
+    height: 400px;
+    background: linear-gradient(15deg,#9e32b9,#ec6393);
+}
+h1{
+    position: absolute;
+    color: rgb(222, 222, 222);
+    font-weight: 400;
+    font-size: 26px;
+    top: 30px;
+    left: 100px;
+}
+
+.text{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    position: absolute;
+    top: 90px;
+    left: 10px;
+}
+.br{
+    position: absolute;
+    padding: 10px 20px;
+    border: 0;
+    background-color: #ec6393;
+    border-radius: 20px;
+    font-size: 18px;
+    color: white;
+    font-weight: 540;
+    top: 290px;
+    left: 90px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.br:hover{
+    background-color: rgb(204, 204, 204);
+    color: #ec6393;
+    transition: 0.3s;
+}
+.xbox{
+    right: 90px;
+    top: 60px;
+    position: absolute;
+    animation: up 4s linear infinite;
+    width: 150px;
+}
+@keyframes up{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}    
+.endpage{
+    position: absolute;
+    bottom: -800px;
+    height: 200px;
+    left: 420px;
+}
+h2{
+    color: white;
+    top: -30px;
+    font-size: 17px;
+}
+.by{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    font-weight: 600;
+    left: 180px;
+    transition: 0.3s;
+}
+.by:hover{
+    text-decoration: underline;
+    transition: 0.3s;
+}
+.text2{
+    background-color: #1f2122;
+    width: 880px;
+    position: absolute;
+    border-radius: 20px;
+    top: 640px;
+    left: 109px;
+    height: 660px;
+}
+.pop1{
+    position: absolute;
+    top: 40px;
+    left: 22px;
+    width: 200px;
+    height: 240px;
+    background-color: #80808050;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.pop2{
+    position: absolute;
+    top: 40px;
+    left: 233px;
+    width: 200px;
+    height: 240px;
+    background-color: #80808050;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.pop3{
+    position: absolute;
+    top: 40px;
+    cursor: pointer;
+    left: 444px;
+    width: 200px;
+    height: 240px;
+    background-color: #80808050;
+    border-radius: 20px;
+}
+.pop4{
+    position: absolute;
+    top: 40px;
+    left: 655px;
+    width: 200px;
+    height: 240px;
+    cursor: pointer;
+    background-color: #80808050;
+    border-radius: 20px;
+}
+.im1{
+    position: absolute;
+    border-radius: 20px;
+    width: 180px;
+    top: 10px;
+    left: 10px;
+}
+.dex{
+    position: absolute;
+    top: 180px;
+    left: 13px;
+    font-size: 12;
+    font-weight: 500;
+}
+h5{
+    position: absolute;
+    top: 142px;
+    font-weight: 750;
+    left: 13px;
+    color: rgba(255, 255, 255, 0.794);
+    font-size: 16px;
+
+}
+.star{
+    position: absolute;
+    top: 167px;
+    right: 37px;
+    width: 24px;
+}
+.tele{
+    position: absolute;
+    width: 24px;
+    top: 190px;
+    right: 48px;
+}
+.num{
+    position: absolute;
+    top: 155px;
+    color: aliceblue;
+    right: 10px;
+}
+.num1{
+    position: absolute;
+    top: 182px;
+    color: antiquewhite;
+    right: 10px;
+}
+.pop5{
+    position: absolute;
+    top: 2px;
+    left: 4px;
+    width: 200px;
+    height: 240px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.pop6{
+    position: absolute;
+    top: 2px;
+    left: 208px;
+    width: 200px;
+    height: 240px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.pop7{
+    position: absolute;
+    top: 30px;
+    cursor: pointer;
+    left: 444px;
+    width: 200px;
+    height: 240px;
+    background-color: #80808050;
+    border-radius: 20px;
+}
+.pop8{
+    position: absolute;
+    top: 30px;
+    left: 655px;
+    width: 200px;
+    height: 240px;
+    cursor: pointer;
+    background-color: #80808050;
+    border-radius: 20px;
+}
+.text3{
+    width: 880px;
+    position: absolute;
+    border-radius: 20px;
+    top: 940px;
+    left: 109px;
+    height: 800px;
+}
+.mtext{
+    position: absolute;
+    background-color: #80808050;
+    width: 410px;
+    height: 240px;
+    top: 30px;
+    left: 23px;
+    border-radius: 20px;
+}
+.link5{
+    position: absolute;
+    border: 0;
+    padding: 13px 20px;
+    text-decoration: none;
+    background-color: #ec6393;
+    color: white;
+    border-radius: 20px;
+    top: 340px;
+    font-size: 17px;
+    left: 346px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.3s;
+}
+.link5:hover{
+    color: #808080;
+    background-color: white;
+    transition: 0.3s;
+}
+.pa1{
+    position: absolute;
+    top: -460px;
+}
+.a1{
+    color: #ec6393;
+    font-size: 35px;
+    font-weight: 800;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.a2{
+    position: relative;
+    top: -128px;
+    font-size: 35px;
+    font-weight: 800;
+    color: white;
+    left: 270px;
+    display: inline;
+}
+.cercle{
+    position: absolute;
+    width: 40%;
+    height: 40%;
+    right: 0;
+    clip-path: circle(100px at right);
+    background-color: #9e32b981;
+    bottom: 10px;
+}
+.cercle1{
+    position: absolute;
+    width: 40%;
+    height: 40%;
+    left: 0;
+    top: 130px;
+    clip-path: circle(100px at left);
+    background-color: #9e32b981;
+    bottom: 10px;
+}
+.icons{
+    position: absolute;
+    bottom: -1150px;
+    left: 50px;
+}
+.insta{
+    padding: 4px;
+    color: #ec6393;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.face{
+    padding: 4px;
+    color: #ec6393;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.discord{
+    padding: 4px;
+    color: #ec6393;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.insta:hover{
+    color: #9e32b9;
+    transition: 0.3s;
+}
+.face:hover{
+    color: #9e32b9;
+    transition: 0.3s;
+}
+
+.discord:hover{
+    color: #9e32b9;
+    transition: 0.3s;
+}
+.end{
+    position: absolute;
+    top: 1770px;
+}
+.end1{
+    position: relative;
+    left: 629px;
+    color: #808080;
+}
+
+
+
+
+
